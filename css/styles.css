@@ -718,11 +718,12 @@ address {
   text-decoration-line: underline;
 }
 .check-wrap {
+  display: flex;
   width: 16px;
   height: 16px;
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
-  display: inline-flex;
+
   justify-content: center;
   align-items: center;
   margin-right: 8px;
