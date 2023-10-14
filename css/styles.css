@@ -498,6 +498,8 @@ address {
   display: flex;
   gap: 24px;
 }
+.footer-subskribe-label {
+}
 .footer-subscribe-input {
   background-color: transparent;
   width: 264px;
@@ -594,7 +596,7 @@ address {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.moda .modal-close-icon {
+.modal .modal-close-icon {
   fill: #2e2f42;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -602,7 +604,10 @@ address {
   background-color: #404bbf;
   border: none;
 }
-.modal-close-button:hover .modal-close-icon {
+.modal-close-button:focus
+  .modal-close-icon
+  .modal-close-button:hover
+  .modal-close-icon {
   fill: #ffffff;
 }
 
